@@ -1,18 +1,25 @@
 {
-  "name": "nlp-test",
+  "name": "nlp-tools",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
+    "build-lib": "vue-cli-service build --target lib --name nlp-tools ./src/main.js",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/nlp-tools.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
