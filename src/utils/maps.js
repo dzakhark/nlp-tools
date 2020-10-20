@@ -1,4 +1,4 @@
-export const TAGS = {
+export const tags = {
   paragraph: 'div',
   text: 'div',
   sentence: 'span',
@@ -29,4 +29,10 @@ export const labels = {
   2: 'very positive',
   sentence: 'sentence',
   subsentence: 'subsentence',
+};
+
+export default {
+  labels,
+  colors,
+  tags,
 };

@@ -5,10 +5,11 @@
 </template>
 
 <script>
-import { labels, colors } from '@/utils/maps';
+import { options } from '@/mixins/options';
 
 export default {
   name: 'Label',
+  mixins: [options],
   props: {
     type: {
       type: [String, Number],
@@ -17,12 +18,12 @@ export default {
   },
   computed: {
     text() {
-      return labels[this.type] && labels[this.type].toUpperCase();
+      return this.getOptionValue(this.type, 'labels') && this.getOptionValue(this.type, 'labels').toUpperCase();
     },
     styles() {
       return {
-        background: `${colors[this.type]}`,
-        border: `1px solid ${colors[this.type]}`,
+        background: `${this.getOptionValue(this.type, 'colors')}`,
+        border: `1px solid ${this.getOptionValue(this.type, 'colors')}`,
       };
     },
   },
