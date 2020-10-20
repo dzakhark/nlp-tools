@@ -578,7 +578,7 @@ defineIterator(String, 'String', function (iterated) {
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Label_vue_vue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cae4");
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Label_vue_vue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Label_vue_vue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Label_vue_vue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Label_vue_vue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a);
 
 /***/ }),
 
@@ -1402,7 +1402,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     if (descriptor && descriptor.get !== getCurrentScript && document.currentScript) {
       return document.currentScript
     }
-  
+
     // IE 8-10 support script readyState
     // IE 11+ & Firefox support stack trace
     try {
@@ -1420,24 +1420,24 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
         inlineScriptSourceRegExp,
         inlineScriptSource,
         scripts = document.getElementsByTagName('script'); // Live NodeList collection
-  
+
       if (scriptLocation === currentLocation) {
         pageSource = document.documentElement.outerHTML;
         inlineScriptSourceRegExp = new RegExp('(?:[^\\n]+?\\n){0,' + (line - 2) + '}[^<]*<script>([\\d\\D]*?)<\\/script>[\\d\\D]*', 'i');
         inlineScriptSource = pageSource.replace(inlineScriptSourceRegExp, '$1').trim();
       }
-  
+
       for (var i = 0; i < scripts.length; i++) {
         // If ready state is interactive, return the script tag
         if (scripts[i].readyState === 'interactive') {
           return scripts[i];
         }
-  
+
         // If src matches, return the script tag
         if (scripts[i].src === scriptLocation) {
           return scripts[i];
         }
-  
+
         // If inline source matches, return the script tag
         if (
           scriptLocation === currentLocation &&
@@ -1447,7 +1447,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           return scripts[i];
         }
       }
-  
+
       // If no match, return null
       return null;
     }
@@ -3213,7 +3213,7 @@ var labels = {
   }
 });
 // CONCATENATED MODULE: ./src/components/Label.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Labelvue_type_script_lang_js_ = (Labelvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Labelvue_type_script_lang_js_ = (Labelvue_type_script_lang_js_);
 // EXTERNAL MODULE: ./src/components/Label.vue?vue&type=style&index=0&id=60eb0c7a&scoped=true&lang=css&
 var Labelvue_type_style_index_0_id_60eb0c7a_scoped_true_lang_css_ = __webpack_require__("3ea4");
 
@@ -3334,11 +3334,11 @@ var component = normalizeComponent(
   null,
   "60eb0c7a",
   null
-  
+
 )
 
 /* harmony default export */ var Label = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/SentimentToken.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TextAnnotator.vue?vue&type=script&lang=js&
 
 
 
@@ -3393,9 +3393,9 @@ var component = normalizeComponent(
     }, [].concat(_toConsumableArray(children), [label]));
   }
 });
-// CONCATENATED MODULE: ./src/components/SentimentToken.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_SentimentTokenvue_type_script_lang_js_ = (SentimentTokenvue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./src/components/SentimentToken.vue
+// CONCATENATED MODULE: ./src/components/TextAnnotator.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_SentimentTokenvue_type_script_lang_js_ = (SentimentTokenvue_type_script_lang_js_);
+// CONCATENATED MODULE: ./src/components/TextAnnotator.vue
 var SentimentToken_render, SentimentToken_staticRenderFns
 
 
@@ -3411,7 +3411,7 @@ var SentimentToken_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* harmony default export */ var SentimentToken = (SentimentToken_component.exports);

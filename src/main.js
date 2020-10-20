@@ -1,2 +1,8 @@
-// eslint-disable-next-line import/prefer-default-export
-export { default as SentimentToken } from './components/SentimentToken.vue';
+import Vue from 'vue';
+import App from './App.vue';
+
+Vue.config.productionTip = false;
+
+new Vue({
+  render: (h) => h(App),
+}).$mount('#app');

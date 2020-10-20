@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "build-lib": "vue-cli-service build --target lib --name nlp-tools ./src/main.js",
+    "build-lib": "vue-cli-service build --target lib --name nlp-tools ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "main": "./dist/nlp-tools.common.js",
@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
     "vue": "^2.6.11"
   },
   "devDependencies": {
